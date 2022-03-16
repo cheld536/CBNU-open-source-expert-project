@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="textEmailAddress">
+
+        </EditText>
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strBtn1">
+            android:layout_marginTop="15dp"/>
+        </Button>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/strBtn2"
+            android:layout_marginTop="15dp"/>
+
+        <RadioGroup
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/radioGroup1">
+
+            <RadioButton
+                android:text="@string/strRadio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id ="@+id/Radiobutton1"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strRadio2"
+                android:id="@+id/Radiobutton2"
+                />
+        </RadioGroup>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat"
+        android:layout_gravity="center"
+        android:id="@+id/imageView2"
+        />
+
+
+
+</LinearLayout>

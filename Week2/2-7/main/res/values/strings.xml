@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">2018038014_김윤희</string>
+    <string name="strBtn1">글자 나타내기</string>
+    <string name="strBtn2">홈페이지 열기</string>
+    <string name="strRadio1">11.0(R)</string>
+    <string name="strRadio2">12.0(R)</string>
+    <string name="result"></string>
+</resources>
