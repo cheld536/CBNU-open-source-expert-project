@@ -13,11 +13,11 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    Button button1;
-    Button button2;
-    EditText editText1;
-    ImageView changingImage;
-    RadioGroup imageChangingRadioGroup;
+    Button button1;                                 // 글자 나타내기 버튼
+    Button button2;                                 // 홈페이지 버튼
+    EditText editText1;                             // 텍스트 입력
+    ImageView changingImage;                        // 이미지뷰
+    RadioGroup imageChangingRadioGroup;             // 라디오 그룹
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         button2 = (Button) findViewById(R.id.button2);
 
-
+        /*버튼 1 기능 */
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /*버튼 2 기능 */
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         changingImage = (ImageView) findViewById(R.id.imageView2);
         imageChangingRadioGroup = (RadioGroup) findViewById(R.id.radioGroup1);
-
+        /*이미지 변경 그룹*/
         imageChangingRadioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, int checked) {
