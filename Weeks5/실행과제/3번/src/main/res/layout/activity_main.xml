@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_1"/>
+    <EditText
+        android:id="@+id/edit_2"/>
+
+    <TableRow>
+
+        <Button
+            android:text="0"
+            android:id="@+id/but_0" />
+
+        <Button
+            android:text="1"
+            android:id="@+id/but_1" />
+
+        <Button
+            android:text="2"
+            android:id="@+id/but_2" />
+
+        <Button
+            android:text="3"
+            android:id="@+id/but_3" />
+
+        <Button
+            android:text="4"
+            android:id="@+id/but_4" />
+
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="5"
+            android:id="@+id/but_5" />
+
+        <Button
+            android:text="6"
+            android:id="@+id/but_6" />
+
+        <Button
+            android:text="7"
+            android:id="@+id/but_7" />
+
+        <Button
+            android:text="8"
+            android:id="@+id/but_8" />
+
+        <Button
+            android:text="9"
+            android:id="@+id/but_9" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/Add"
+            android:text="더하기"
+            android:layout_span="5"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/Sub"
+            android:text="빼기"
+            android:layout_span="5"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_margin="10dp"
+            android:text="곱하기"
+            android:id="@+id/Mul"
+            android:layout_span="5"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_margin="10dp"
+            android:text="나누기"
+            android:id="@+id/Div"
+            android:layout_span="5"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="10dp">
+        <TextView
+            android:textSize="20dp"
+            android:text="계산 결과: "
+            android:textColor="#FF0000"
+            android:layout_span="2"/>
+        <TextView
+            android:id="@+id/result"
+            android:textSize="20dp"
+            android:textColor="#FF0000"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="10dp"
+            android:text="2018038014 김윤희"
+            android:textColor="@color/black"
+            />
+    </TableRow>
+</TableLayout>
