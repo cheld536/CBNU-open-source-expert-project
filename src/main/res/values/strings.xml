@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Travel Ver.1</string>
+    <string name="seoul">SEOUL</string>
+    <string name="ulsan">ULSAN</string>
+    <string name="gyeongnam">Gyeongnam</string>
+    <string name="map">Map</string>
+</resources>

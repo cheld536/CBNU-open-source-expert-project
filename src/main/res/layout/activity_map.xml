@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/korea">
+
+    <Button
+        android:id="@+id/btnGyeongnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:backgroundTint="#FFCD4A"
+        android:text="Gyeongnam"
+        app:layout_constraintBottom_toTopOf="@+id/btnBusan"
+        app:layout_constraintEnd_toStartOf="@+id/btnUlsan"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/btnJeolnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="#B8E6E1"
+        android:text="Jeonnam"
+        app:layout_constraintEnd_toStartOf="@+id/btnchunbuk"
+        app:layout_constraintStart_toStartOf="@+id/btnSeoul"
+        app:layout_constraintTop_toBottomOf="@+id/btnGwangju"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnJeolbuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#5D6DBE"
+        android:text="Jeollabuk"
+        app:layout_constraintEnd_toEndOf="@+id/btnJeju"
+        app:layout_constraintStart_toEndOf="@+id/btnGwangju"
+        app:layout_constraintTop_toBottomOf="@+id/btnDaejeon"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnIncheon"
+        android:layout_width="127dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="#78CF4D"
+        android:text="Incheon"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSeoul"
+        app:layout_constraintEnd_toStartOf="@+id/btnGangwon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnGyeonggi"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnSeoul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="19dp"
+        android:backgroundTint="#FC5230"
+        android:text="Seoul"
+        app:layout_constraintBottom_toTopOf="@+id/btnchunbuk"
+        app:layout_constraintEnd_toStartOf="@+id/btnchunbuk"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnGangwon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="42dp"
+        android:backgroundTint="#568A35"
+        android:text="Gangwon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnIncheon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnGyeongbuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#FD8A69"
+        android:text="Gyeongbuk"
+        app:layout_constraintBottom_toTopOf="@+id/btnJeolbuk"
+        app:layout_constraintStart_toStartOf="@+id/btnchunbuk"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnchunbuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="23dp"
+        android:backgroundTint="#B96BC6"
+        android:text="Chungbuk"
+        app:layout_constraintBottom_toTopOf="@+id/btnGyeongbuk"
+        app:layout_constraintStart_toEndOf="@+id/btnChungnam"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnGyeonggi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="39dp"
+        android:backgroundTint="#DDECCA"
+        android:text="Gyeonggi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnChungnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="#C2C2C2"
+        android:text="Chungnam"
+        app:layout_constraintBottom_toTopOf="@+id/btnDaejeon"
+        app:layout_constraintStart_toStartOf="@+id/btnDaejeon"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnUlsan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9A30AE"
+        android:text="Ulsan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnJeolbuk"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnBusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="33dp"
+        android:backgroundTint="#3A4CA8"
+        android:text="Busan"
+        android:textSize="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUlsan"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnDaejeon"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="26dp"
+        android:backgroundTint="#416AFF"
+        android:text="Daejeon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnGyeongnam"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnGwangju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#6E8DFE"
+        android:text="Gwangju"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnGyeongnam"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnJeju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#C5D7FF"
+        android:text="Jeju"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="39dp"
+        android:text="api"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnchunbuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/dokdo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="-1dp"
+    tools:layout_editor_absoluteY="-447dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-447dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="-447dp"
+            android:src="@drawable/town" />
+
+        <TextView
+            android:id="@+id/txtTrrsrtNm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/txtlocation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:fontFamily="@font/maruburiregular"
+            android:textSize="15dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txtinfo"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:fontFamily="@font/maruburiregular"
+
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="-59dp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="0dp">
+            <!--
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight ="1"
+            tools:ignore="MissingConstraints">
+
+            <WebView
+                android:id="@+id/wView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <ProgressBar
+                android:id="@+id/pBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyle"
+                android:layout_gravity="center"/>
+
+
+        </FrameLayout>
+        -->
+
+            <ImageButton
+                android:id="@+id/googlemap"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="16dp"
+                android:background="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="@+id/naversearch"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/naversearch"
+                app:layout_constraintTop_toTopOf="@+id/naversearch"
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/naversearch"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="115dp"
+                android:layout_marginBottom="34dp"
+                android:background="#FFFFFF"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/googlemap"
+                app:layout_constraintStart_toEndOf="@+id/daumsearch"
+                app:srcCompat="@drawable/naver"
+                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/daumsearch"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="114dp"
+                android:background="#FFFFFF"
+                android:scaleType="fitCenter"
+                app:layout_constraintBottom_toBottomOf="@+id/naversearch"
+                app:layout_constraintEnd_toStartOf="@+id/naversearch"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/naversearch"
+                app:srcCompat="@drawable/daum"
+                tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
