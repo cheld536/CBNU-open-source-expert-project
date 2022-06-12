@@ -27,7 +27,7 @@ import java.util.Map;
 
 public class PlaceActivity extends AppCompatActivity implements Serializable {
 
-    private String address = "http://ec2-13-209-74-60.ap-northeast-2.compute.amazonaws.com:3000/local/";
+    private String address = "your ec2 address";
     private ListView listView;
     ArrayAdapter adapter;
     int num;
