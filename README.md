@@ -28,3 +28,11 @@
 - GUI 구성 
 - 실행 영상 제작 
 - 관광지 정보 지도에 표시
+
+
+사용한 공공데이터 API 주소 
+
+-한국관광공사_국문 관광정보 서비스 
+https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15057787
+-전국관광지정보표준데이터
+https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15021141
