@@ -26,7 +26,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ApiActivity  extends AppCompatActivity implements Serializable{
-    private String key = "USZ276Nnnc3S%2F%2FYFZfYpS%2BJPtkmp8u42NTbiTvPUFEJYPAKSmvGAvJMkcd3vaXQxOreSh2bpVhz6tZ4Nn3v7uQ%3D%3D";
+    private String key = "your_key";
     private String address = "http://api.data.go.kr/openapi/tn_pubr_public_trrsrt_api";
     private String pageNo = "0";
     private String numOfRows = "100";
