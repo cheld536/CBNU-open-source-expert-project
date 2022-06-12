@@ -18,9 +18,9 @@
 
 팀원 이정주 
 
--Mysql을 이용한 DB 운용
--Node.js를 이용한 Server 운용
--Aws를 이용한 고정 IP 서버 운용
+- Mysql을 이용한 DB 운용
+- Node.js를 이용한 Server 운용
+- Aws를 이용한 고정 IP 서버 운용
 
 팀원 한지성 
 
